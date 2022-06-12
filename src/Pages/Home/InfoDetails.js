@@ -1,16 +1,23 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
-const InfoDetails = ({ img, cardTitle }) => {
+const InfoDetails = ({ img, cardTitle, description }) => {
+  const navigate = useNavigate();
+  const navigateTrip = () => {
+    navigate("/trips");
+  };
   return (
     <div class="card  w-96 bg-base-100 shadow-xl image-full">
       <figure>
-        <img src={img} alt="Shoes" />
+        <img src={img} alt="" />
       </figure>
       <div class="card-body">
         <h2 class="card-title">{cardTitle}</h2>
-        <p>If a dog chews shoes whose shoes does he choose?</p>
+        <p>{description}</p>
         <div class="card-actions justify-end">
-          <button class="btn btn-dark text-white">Booking!!</button>
+          <button class="btn btn-dark text-white" onClick={navigateTrip}>
+            Booking!!
+          </button>
         </div>
       </div>
     </div>
