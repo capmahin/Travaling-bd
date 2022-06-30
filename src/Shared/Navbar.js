@@ -8,20 +8,13 @@ const Navbar = () => {
         <Link to="/">Home</Link>
       </li>
       <li>
-        <Link to="/trips">Trips</Link>
+        <Link to="/completedTasks">CompletedTasks</Link>
       </li>
       <li>
-        <Link to="/reviews">Reviews</Link>
+        <Link to="/toDo">To-Do</Link>
       </li>
       <li>
-        <Link to="/contact">Contact Us</Link>
-      </li>
-      <li>
-        <Link to="/about">About</Link>
-      </li>
-
-      <li>
-        <Link to="/login">Login</Link>
+        <Link to="/calendar">Calendar</Link>
       </li>
     </>
   );
@@ -52,13 +45,10 @@ const Navbar = () => {
             {menuItem}
           </ul>
         </div>
-        <a class="btn btn-ghost normal-case text-xl">Travaling-bd</a>
+        <a class="btn btn-ghost normal-case text-xl">My-Task-bar</a>
       </div>
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal p-0">{menuItem}</ul>
-      </div>
-      <div class="navbar-end">
-        <a class="btn">Get started</a>
       </div>
     </div>
   );

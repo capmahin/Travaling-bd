@@ -3,8 +3,10 @@ import "./App.css";
 import Navbar from "./Shared/Navbar";
 import { Routes, Route, Link } from "react-router-dom";
 import Home from "./Pages/Home/Home";
-import About from "./Pages/About/About";
-import Login from "./Pages/Login/Login";
+
+import CompletedTask from "./Pages/CompletedTask/CompletedTask";
+import ToDo from "./Pages/ToDo/ToDo";
+import Calender from "./Pages/Calendar/Calender";
 
 function App() {
   return (
@@ -12,8 +14,9 @@ function App() {
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="about" element={<About />} />
-        <Route path="login" element={<Login />} />
+        <Route path="completedTasks" element={<CompletedTask />} />
+        <Route path="toDo" element={<ToDo />} />
+        <Route path="calendar" element={<Calender />} />
       </Routes>
     </div>
   );
