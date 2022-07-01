@@ -1,6 +1,8 @@
 import React from "react";
 import { toast } from "react-toastify";
 
+const url = "https://task-server-eight.vercel.app";
+
 const BookingModal = ({ task, setTask }) => {
   const { _id, sluts } = task;
   const handleBooking = (event) => {
@@ -14,7 +16,7 @@ const BookingModal = ({ task, setTask }) => {
       description: event.target.description.value,
     };
 
-    fetch("http://localhost:5000/booking", {
+    fetch(`${url}/booking`, {
       method: "POST",
       headers: {
         "content-type": "application/json",

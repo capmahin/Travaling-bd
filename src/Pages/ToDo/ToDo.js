@@ -4,12 +4,14 @@ import { useState } from "react";
 import BookingModal from "./BookingModal";
 import Service from "./Service";
 
+const url = "https://task-server-eight.vercel.app";
+
 const ToDo = () => {
   const [services, setServices] = useState([]);
   const [task, setTask] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:5000/service")
+    fetch(`${url}/service`)
       .then((res) => res.json())
       .then((data) => setServices(data));
   }, []);
