@@ -11,7 +11,7 @@ const Navbar = () => {
         <Link to="/completedTasks">CompletedTasks</Link>
       </li>
       <li>
-        <Link to="/toDo">To-Do</Link>
+        <Link to="/toDoList">To-DoList</Link>
       </li>
       <li>
         <Link to="/calendar">Calendar</Link>

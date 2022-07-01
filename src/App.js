@@ -20,10 +20,10 @@ function App() {
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="completedTasks" element={<CompletedTask />} />
-        <Route path="toDoList" element={<ToDoList />} />
+        <Route path="/completedTasks" element={<CompletedTask />} />
+        <Route path="/toDoList" element={<ToDoList />} />
 
-        <Route path="calendar" element={<Calender />} />
+        <Route path="/calendar" element={<Calender />} />
       </Routes>
       <ToastContainer />
       <Footer></Footer>
