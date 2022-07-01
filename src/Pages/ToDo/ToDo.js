@@ -9,7 +9,7 @@ const ToDo = () => {
   const [task, setTask] = useState(null);
 
   useEffect(() => {
-    fetch("service.json")
+    fetch("http://localhost:5000/service")
       .then((res) => res.json())
       .then((data) => setServices(data));
   }, []);
@@ -18,7 +18,7 @@ const ToDo = () => {
       {services.map((service) => (
         <Service key={service.id} service={service} setTask={setTask}></Service>
       ))}
-      {task && <BookingModal task={task}></BookingModal>}
+      {task && <BookingModal task={task} setTask={setTask}></BookingModal>}
     </div>
   );
 };
