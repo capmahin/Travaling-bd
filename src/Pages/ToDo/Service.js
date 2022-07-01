@@ -1,14 +1,19 @@
 import React from "react";
 
-const Service = ({ service }) => {
-  const { name } = service;
+const Service = ({ service, setTask }) => {
+  const { sluts } = service;
   return (
     <div class="card w-96 bg-base-100 shadow-xl">
       <div class="card-body">
-        <h2 class="card-title">Card title!</h2>
-        <p>If a dog chews shoes whose shoes does he choose?</p>
         <div class="card-actions justify-end">
-          <button class="btn btn-primary">Buy Now</button>
+          <button class=""></button>
+          <label
+            for="booking-modal"
+            onClick={() => setTask(service)}
+            class="btn btn-primary text-white uppercase"
+          >
+            Click Here!!!
+          </label>
         </div>
       </div>
     </div>

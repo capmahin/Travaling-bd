@@ -8,7 +8,8 @@ import CompletedTask from "./Pages/CompletedTask/CompletedTask";
 
 import Calender from "./Pages/Calendar/Calender";
 import Footer from "./Shared/Footer";
-import ToDo from "./Pages/ToDo/ToDo";
+
+import ToDoList from "./Pages/ToDo/ToDoList";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="completedTasks" element={<CompletedTask />} />
-        <Route path="toDo" element={<ToDo />} />
+        <Route path="toDoList" element={<ToDoList />} />
 
         <Route path="calendar" element={<Calender />} />
       </Routes>

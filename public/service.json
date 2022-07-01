@@ -1,34 +1,12 @@
 [
     {
       "id":1,
-      "task-name": "Grosari-Shopping"
-    },
-    {
-        "id":2,
-      "task-name": "Marketing-things"
-    },
-    {
-        "id":3,
-      "task-name": "Appointment-list"
-    },
-    {
-        "id":4,
-      "task-name": "Important-notes"
-    },
-    {
-        "id":5,
-      "task-name": "Official-notes"
-    },
-    {
-        "id":6,
-      "task-name": "Market-list"
-    },
-    {
-        "id":7,
-      "task-name": "Product-list"
-    },
-    {
-        "id":8,
-      "task-name": "Books-list"
+      "sluts":["Marketing list",
+        "Business appountments",
+        "Shop list",
+        "Personal notes",
+        "Important notes"
+        ]
     }
+    
   ]
