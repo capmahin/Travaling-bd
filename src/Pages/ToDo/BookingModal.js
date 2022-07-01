@@ -1,4 +1,5 @@
 import React from "react";
+import { toast } from "react-toastify";
 
 const BookingModal = ({ task, setTask }) => {
   const { _id, sluts } = task;
@@ -12,7 +13,19 @@ const BookingModal = ({ task, setTask }) => {
       slut,
       description: event.target.description.value,
     };
-    setTask(null);
+
+    fetch("http://localhost:5000/booking", {
+      method: "POST",
+      headers: {
+        "content-type": "application/json",
+      },
+      body: JSON.stringify(booking),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        console.log(data);
+        setTask(null);
+      });
   };
   return (
     <div>
