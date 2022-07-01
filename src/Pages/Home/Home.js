@@ -1,5 +1,7 @@
 import React from "react";
+
 import ToDo from "../ToDo/ToDo";
+import ToDoList from "../ToDo/ToDoList";
 
 import Banner from "./Banner";
 
@@ -8,6 +10,7 @@ const Home = () => {
     <div>
       <Banner></Banner>
       <ToDo></ToDo>
+      <ToDoList></ToDoList>
     </div>
   );
 };

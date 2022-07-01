@@ -5,7 +5,7 @@ const Banner = () => {
     <div class="carousel w-full">
       <div id="slide1" class="carousel-item relative w-full">
         <img
-          src="https://www.deccanherald.com/sites/dh/files/articleimages/2021/08/04/istock-1137892510-1-1015948-1628019895.jpg"
+          src="https://uploads-ssl.webflow.com/5a723458b5e4b70001aa226c/5e87f6f458edde59716c2e76_Screen%20Shot%202020-04-03%20at%2023.54.15.png"
           class="w-full h-80"
         />
         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -19,7 +19,7 @@ const Banner = () => {
       </div>
       <div id="slide2" class="carousel-item relative w-full">
         <img
-          src="https://avijatrik.org/wp-content/uploads/2019/06/cover22.jpg"
+          src="https://lh3.googleusercontent.com/Zcu5UupB1AqesDhGSF9QAsFJtPr2xuaFlWPqAhYNe_xh7t5PRO1lgsKZn_MR0iAO8PCoLbIjsOpnZRSfBMC6UZpIyvA=w640-h400-e365-rj-sc0x00ffffff"
           class="w-full  h-80"
         />
         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -33,7 +33,7 @@ const Banner = () => {
       </div>
       <div id="slide3" class="carousel-item relative w-full">
         <img
-          src="https://i.ytimg.com/vi/CY5ADnsi4Bo/maxresdefault.jpg"
+          src="https://images.ctfassets.net/lzny33ho1g45/google-sheets-to-do-list-p-img/ed5c3bf53cd398a7b804155da7ca348a/file.png"
           class="w-full h-80"
         />
         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -47,7 +47,7 @@ const Banner = () => {
       </div>
       <div id="slide4" class="carousel-item relative w-full">
         <img
-          src="https://upload.wikimedia.org/wikipedia/commons/5/59/Cox%27s_Bazar.jpg"
+          src="https://i.pinimg.com/originals/4b/e4/a2/4be4a2e8382df8e7796607230d38d654.jpg"
           class="w-full h-80"
         />
         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">

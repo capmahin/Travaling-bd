@@ -7,12 +7,12 @@ import Home from "./Pages/Home/Home";
 import CompletedTask from "./Pages/CompletedTask/CompletedTask";
 
 import Calender from "./Pages/Calendar/Calender";
-import Footer from "./Shared/Footer";
 
 import ToDoList from "./Pages/ToDo/ToDoList";
 import { ToastContainer } from "react-toastify";
 
 import "react-toastify/dist/ReactToastify.css";
+import Footer from "./Shared/Footer";
 
 function App() {
   return (
@@ -25,8 +25,8 @@ function App() {
 
         <Route path="/calendar" element={<Calender />} />
       </Routes>
-      <ToastContainer />
       <Footer></Footer>
+      <ToastContainer />
     </div>
   );
 }
